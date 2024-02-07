@@ -32,6 +32,7 @@ RegisterNetEvent('Apply:Tattoo', function(tats)
             end
             currentTattoos = tattooList
         end
+        TriggerEvent('wais:addmissionxp:tattoo', 1) --added by pamela for wais battlepass
     end)
 end)
 
